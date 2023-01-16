@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+
+<style>
+.Container{ margin: auto; padding: 30px; width: 800px; height: 600px;
+background-color: aquamarine; border: 1px solid seashell;
+font-size: 20px;
+}
+.Container a{
+text-decoration: none; color: black;
+}
+p{
+margin: 20px; padding: 20px;
+}
+.Cursor:hover{ cursor: alias; font-size: 23px;
+}
+.Hide:hover{
+font-size: 23px; display: none;
+}
+.Show:hover{
+background-image: url(C:\Users\anike\OneDrive\Pictures\Saved Pictures\moscow2.jpg);
+}
+.myDIV, .hide{ margin-left: 20px; padding-left: 20px;
+}
+.hide {
+display: none;
+}
+.myDIV:hover + .hide { display: block;
+color: red;
+}
+</style>
+
+
+
+</head>
+<body>
+<div class="Container">
+<p>Cursor : <a class="Cursor" href="#">Cursor</a></p>
+<p>Hide : <a class="Hide" href="#">Hide</a></p>
+<p>Show : <a class="Show" href="#">Show</a></p>
+<p>Display :
+<div class="myDIV">Hover over me.</div>
+<div class="hide">I am shown when someone hovers over the div above.</div><br>
+</p>
+</div>
+</body>
+</html>
